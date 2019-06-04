@@ -1,4 +1,4 @@
-# Git
+# [Git](https://git-scm.com)
 
 Ignore changes to a tracked file:
 

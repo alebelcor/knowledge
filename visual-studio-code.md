@@ -1,4 +1,4 @@
-# Visual Studio Code
+# [Visual Studio Code](https://code.visualstudio.com)
 
 Open working directory:
 

@@ -1,4 +1,4 @@
-# tmux
+# [tmux](https://github.com/tmux/tmux)
 
 ## Commands
 
