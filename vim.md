@@ -13,7 +13,13 @@ dG
 <code>dG</code> deletes from current line to end of the file.
 </details>
 
-Exit without saving:
+Save and quit:
+
+```txt
+:wq
+```
+
+Quit without saving:
 
 ```txt
 :q!
