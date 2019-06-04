@@ -4,9 +4,9 @@
 
 - [Git](git.md)
 - [REST](rest.md)
-- [shell](shell.md)
+- [Shell](shell.md)
 - [tmux](tmux.md)
-- [vim](vim.md)
+- [Vim](vim.md)
 
 ## License
 
