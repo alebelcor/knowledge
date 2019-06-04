@@ -1,24 +1,24 @@
 # Visual Studio Code
 
-Open working directory.
+Open working directory:
 
 ```bash
 code .
 ```
 
-Install extension.
+Install extension:
 
 ```bash
 code --install-extension <extension id>
 ```
 
-Uninstall extension.
+Uninstall extension:
 
 ```bash
 code --uninstall-extension <extension id>
 ```
 
-List installed extensions.
+List installed extensions:
 
 ```bash
 code --list-extensions

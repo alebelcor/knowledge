@@ -1,6 +1,6 @@
 # Vim
 
-Delete all lines in file.
+Delete all lines in file:
 
 ```txt
 gg
@@ -13,7 +13,7 @@ dG
 <code>dG</code> deletes from current line to end of the file.
 </details>
 
-Exit without saving.
+Exit without saving:
 
 ```txt
 :q!

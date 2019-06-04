@@ -2,7 +2,7 @@
 
 ## Create
 
-Create a new resource.
+Create a new resource:
 
 ```txt
 POST  /user/posts
@@ -10,19 +10,19 @@ POST  /user/posts
 
 ## Read
 
-Retrieve a collection of resources.
+Retrieve a collection of resources:
 
 ```txt
 GET  /user/posts
 ```
 
-Retrieve a known resource.
+Retrieve a known resource:
 
 ```txt
 GET  /user/posts/1
 ```
 
-Retrieve a filtered collection of resources.
+Retrieve a filtered collection of resources:
 
 ```txt
 GET  /user/posts?author=jdoe
@@ -30,13 +30,13 @@ GET  /user/posts?author=jdoe
 
 ## Update
 
-Update a known resource.
+Update a known resource:
 
 ```txt
 PUT  /user/posts/1
 ```
 
-Partially update a known resource.
+Partially update a known resource:
 
 ```txt
 PATCH  /user/posts/1
@@ -44,7 +44,7 @@ PATCH  /user/posts/1
 
 ## Delete
 
-Delete a known resource.
+Delete a known resource:
 
 ```txt
 DELETE  /user/posts/1
