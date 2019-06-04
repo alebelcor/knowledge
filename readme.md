@@ -7,6 +7,7 @@
 - [Shell](shell.md)
 - [tmux](tmux.md)
 - [Vim](vim.md)
+- [Visual Studio Code](visual-studio-code.md)
 
 ## License
 
