@@ -3,6 +3,7 @@
 > My personal knowledge base
 
 - [Git](git.md)
+- [macOS](macos.md)
 - [REST](rest.md)
 - [Shell](shell.md)
 - [tmux](tmux.md)
