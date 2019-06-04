@@ -10,6 +10,7 @@
 - [tmux](tmux.md)
 - [Vim](vim.md)
 - [Visual Studio Code](visual-studio-code.md)
+- [youtube-dl](youtube-dl.md)
 
 ## License
 
