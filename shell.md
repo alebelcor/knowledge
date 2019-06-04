@@ -32,3 +32,9 @@ Clear a file.
 :> file
 true > file # same as above
 ```
+
+Make file executable.
+
+```bash
+chmod +x <file>
+```
