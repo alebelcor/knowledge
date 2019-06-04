@@ -8,9 +8,9 @@ dG
 ```
 
 <details><summary>Explanation</summary>
-`gg` moves the cursor to first line of the file.
+<code>gg</code> moves the cursor to first line of the file.
 
-`dG` deletes from current line to end of the file.
+<code>dG</code> deletes from current line to end of the file.
 </details>
 
 Exit without saving.
