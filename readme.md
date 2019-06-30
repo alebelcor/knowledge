@@ -5,6 +5,7 @@
 - [Git](git.md)
 - [hostess](hostess.md)
 - [macOS](macos.md)
+- [nodemon](nodemon.md)
 - [REST](rest.md)
 - [Shell](shell.md)
 - [tmux](tmux.md)
