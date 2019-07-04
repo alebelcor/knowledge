@@ -22,6 +22,12 @@ Get domain name of an app:
 mdls -name kMDItemCFBundleIdentifier -raw <app path>
 ```
 
+Get UTI (Uniform Type Identifier) of a file:
+
+```bash
+mdls -name kMDItemContentType -raw <file path>
+```
+
 ## Links
 
 - [A launchd Tutorial](https://www.launchd.info)
