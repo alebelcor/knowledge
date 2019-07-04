@@ -1,4 +1,4 @@
-# Unix, *nix, Unix-like
+# Unix, Unix-like
 
 List files/processes on port `80`:
 
