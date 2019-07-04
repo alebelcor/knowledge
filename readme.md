@@ -8,6 +8,7 @@
 - [nodemon](nodemon.md)
 - [REST](rest.md)
 - [Shell](shell.md)
+- [SQL](sql.md)
 - [tmux](tmux.md)
 - [Unix/Unix-like](unix.md)
 - [Vim](vim.md)
