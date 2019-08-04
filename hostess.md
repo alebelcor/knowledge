@@ -26,3 +26,9 @@ Clean up (silently):
 ```bash
 sudo hostess -s fix
 ```
+
+Add domain:
+
+```bash
+sudo hostess add <domain name> <ip address>
+```
