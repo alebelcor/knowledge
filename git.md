@@ -65,3 +65,9 @@ Delete a remote branch:
 ```bash
 git push <remote name> :<branch name>
 ```
+
+Get branch names you may own:
+
+```bash
+git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' | sort -k5n -k2M -k3n -k4n | grep <git username>
+```
