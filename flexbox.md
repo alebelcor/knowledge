@@ -70,9 +70,9 @@ Tip: In general, avoid `-reverse` values in `flex-direction`/`flex-flow`, and us
 ## Links
 
 * [Flexbox vs. Grid (4 minute video)](https://university.webflow.com/lesson/flex-vs-grid)
-* [What The Flexbox?!](https://flexbox.io/)
+* [What The Flexbox?! (video course)](https://flexbox.io/)
 * [CSS Flexible Box Layout @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
-* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [A Complete Guide to Flexbox @ CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Froggy – A game for learning CSS Flexbox](https://flexboxfroggy.com/)
 * [Flexbugs – A community-curated list of Flexbox issues and cross-browser workarounds for them](https://github.com/philipwalton/flexbugs)
 * [Flexbox @ Can I use](https://caniuse.com/#feat=flexbox)
