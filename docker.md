@@ -18,8 +18,14 @@ Remove all images:
 docker rmi $(docker images -q)
 ```
 
-Delete a volume:
+Delete all unused volumes:
 
 ```bash
-docker volume rm <volume name>
+docker volume prune --force
+```
+
+Delete all unused networks:
+
+```bash
+docker network prune --force
 ```
