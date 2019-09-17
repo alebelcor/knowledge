@@ -11,6 +11,7 @@
 * [REST](rest.md)
 * [Shell](shell.md)
 * [SQL](sql.md)
+* [Technicolor TG582n](technicolor-tg582n.md)
 * [tmux](tmux.md)
 * [Unix/Unix-like](unix.md)
 * [Vim](vim.md)
