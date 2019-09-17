@@ -8,9 +8,9 @@ Log in using your credentials. If you're on Infinitum (Telmex) the default user 
 
 Otherwise, the default user is `Administrator` and the password is blank (i.e. no password).
 
-## How to change the Wi-Fi network name (SSID) and password
+## How to change the Wi-Fi network name and password
 
-Log into the modem's web interface.
+[Log into the modem's web interface](#how-to-log-into-the-modems-web-interface).
 
 On the sidebar, click on "Home Network".
 
@@ -28,7 +28,7 @@ Click on the "Apply" button
 
 ## How to export/backup the modem configuration
 
-Log into the modem's web interface.
+[Log into the modem's web interface](#how-to-log-into-the-modems-web-interface).
 
 On the sidebar, click on the "Technicolor Gateway".
 
@@ -42,7 +42,7 @@ Shortly after, a `user.ini` file will be downloaded. This text file contains all
 
 ## How to restore a modem configuration
 
-Log into the modem's web interface.
+[Log into the modem's web interface](#how-to-log-into-the-modems-web-interface).
 
 On the sidebar, click on the "Technicolor Gateway".
 
@@ -56,15 +56,15 @@ Under "Restore saved configuration", select a configuration file to restore (e.g
 
 Note: You don't need to do this if you _are_ able to connect via Telnet.
 
-Export/backup the modem configuration and edit the file.
+[Export/backup the modem configuration](#how-to-exportbackup-the-modem-configuration) and edit the file.
 
 Under `[ servmgr.ini ]`, search for `TELNET state=disabled`, update its state to `enabled`, and save the file.
 
-Restore the updated modem configuration.
+[Restore the updated modem configuration](#how-to-restore-a-modem-configuration).
 
 ## How to change default DNS
 
-Ensure Telnet is enabled.
+[Ensure Telnet is enabled](#how-to-enable-telnet).
 
 Connect via Telnet: `telnet 192.168.1.254` or `10.0.0.138`
 
@@ -84,7 +84,7 @@ To save the changes enter: `saveall`
 
 To exit enter: `exit`
 
-To verify the changes, log into the modem's web interface.
+To verify the changes, [log into the modem's web interface](#how-to-log-into-the-modems-web-interface).
 
 Under "Broadband Connection", click on "Internet".
 
