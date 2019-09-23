@@ -69,3 +69,8 @@ The story for `<script type="module">` is similar to `<script defer>`, but the d
 The story for `<script type="module" async>` is similar to `<script async>` with the extra dependency fetching. (The `defer` attribute has no effect on module scripts.)
 
 ![Schematic diagram summarizing the above](https://html.spec.whatwg.org/images/asyncdefer.svg)
+
+## Links
+
+* [HTML Standard @ WHATWG.org](https://html.spec.whatwg.org)
+* [<script>: The Script element @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
