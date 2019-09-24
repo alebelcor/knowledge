@@ -204,6 +204,17 @@ Math.floor(Math.random() * 10) + 1 // random number between 1 and 10
 * [`SharedArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)
 * [`Atomics`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics)
 
+## ES2018
+
+* [Object rest/spread properties](https://kangax.github.io/compat-table/es2016plus/#test-object_rest/spread_properties)
+* [`Promise.prototype.finally()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally)
+* [`s` (dotAll) flag for regular expressions](https://kangax.github.io/compat-table/es2016plus/#test-s_(dotAll)_flag_for_regular_expressions)
+* [`RegExp` named capture groups](https://kangax.github.io/compat-table/es2016plus/#test-RegExp_named_capture_groups)
+* [`RegExp` Lookbehind Assertions](https://kangax.github.io/compat-table/es2016plus/#test-RegExp_Lookbehind_Assertions)
+* [`RegExp` Unicode Property Escapes](https://kangax.github.io/compat-table/es2016plus/#test-RegExp_Unicode_Property_Escapes)
+* [Async generators](https://kangax.github.io/compat-table/es2016plus/#test-Asynchronous_Iterators_async_generators)
+* [`for await...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of)
+
 ## Links
 
 * [ECMAScript compatibility table](https://kangax.github.io/compat-table/)
