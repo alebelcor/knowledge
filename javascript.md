@@ -76,6 +76,7 @@ Math.floor(Math.random() * 10) + 1 // random number between 1 and 10
 
 ## ES2015
 
+* [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), [`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import), and [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements
 * [Proper tail calls (tail call optimization)](https://kangax.github.io/compat-table/es6/#test-proper_tail_calls_(tail_call_optimisation))
 * [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 * [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
