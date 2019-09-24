@@ -186,6 +186,11 @@ Math.floor(Math.random() * 10) + 1 // random number between 1 and 10
 * [Updated identifier syntax](https://kangax.github.io/compat-table/es6/#test-Updated_identifier_syntax)
 * [Miscellaneous](https://kangax.github.io/compat-table/es6/#test-miscellaneous)
 
+## ES2016
+
+* [`Array.prototype.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+* [Exponentiation operator (`**`)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Exponentiation)
+
 ## Links
 
 * [ECMAScript compatibility table](https://kangax.github.io/compat-table/)
