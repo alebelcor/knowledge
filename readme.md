@@ -17,6 +17,7 @@
 * [Unix/Unix-like](unix.md)
 * [Vim](vim.md)
 * [Visual Studio Code](visual-studio-code.md)
+* [Web accessibility](web-accessibility.md)
 * [youtube-dl](youtube-dl.md)
 
 ## License
