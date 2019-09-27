@@ -54,3 +54,6 @@ For each guideline and success criteria there are documented _techniques_ which 
 * [Introduction to Web Accessibility and W3C Standards (4 minute video)](https://www.youtube.com/watch?v=20SHvU2PKsM)
 * [Web Accessibility Initiative (WAI) @ W3C](https://www.w3.org/WAI/)
 * [Resources for Developers @ W3C](https://www.w3.org/WAI/roles/developers/)
+* [How to Meet WCAG 2.1 (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
+* [Accessibility @ MDN](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
+* [The A11y Project](https://a11yproject.com)
