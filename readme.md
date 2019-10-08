@@ -3,7 +3,7 @@
 > My personal knowledge base
 
 * [Docker](docker.md)
-* [Flexbox](css-flexbox.md)
+* [CSS Flexbox](css-flexbox.md)
 * [Git](git.md)
 * [hostess](hostess.md)
 * [HTML](html.md)

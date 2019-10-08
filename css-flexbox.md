@@ -1,4 +1,4 @@
-# Flexbox
+# CSS Flexbox
 
 Flexbox was designed as a [one-dimensional layout model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Relationship_of_Flexbox_to_Other_Layout_Methods), i.e. rows or columns.
 
