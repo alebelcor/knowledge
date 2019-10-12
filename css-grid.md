@@ -280,7 +280,7 @@ By default, items are placed in a grid by filling each row in turn, adding new r
 
 In grid you have two axes available to align things against:
 
-* Block (column) axis: The axis used when layout out blocks of text
+* Block (column) axis: The axis used when laying out blocks of text
 * Inline (row) axis: Runs across the block axis and is the direction along which regular text flows
 
 The [`align-items`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) and [`align-self`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self) properties control alignment on the block axis.
