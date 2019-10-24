@@ -8,6 +8,7 @@
 * [Git](git.md)
 * [hostess](hostess.md)
 * [HTML](html.md)
+* [ITCSS](itcss.md)
 * [macOS](macos.md)
 * [nodemon](nodemon.md)
 * [REST](rest.md)
