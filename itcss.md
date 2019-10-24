@@ -30,6 +30,7 @@ Add layers, as needed, in the correct place. Specificity and explicitness of sel
 
 ## Links
 
+* [ITCSS @ Skillshare (video course)](https://csswizardry.com/2018/11/itcss-and-skillshare/)
 * [Harry Roberts - Managing CSS Projects with ITCSS](https://www.youtube.com/watch?v=1OKZOV-iLj4)
 * [Harry Roberts - Managing CSS Projects with ITCSS – Slides](https://csswizardry.net/talks/2014/11/itcss-dafed.pdf)
 * [Example 1 – csswizardry.github.com](https://github.com/csswizardry/csswizardry.github.com)
