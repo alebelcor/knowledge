@@ -2,6 +2,7 @@
 
 > My personal knowledge base
 
+* [BEM](bem.md)
 * [Docker](docker.md)
 * [CSS Flexbox](css-flexbox.md)
 * [CSS Grid](css-grid.md)
