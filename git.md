@@ -71,3 +71,21 @@ Get branch names you may own:
 ```bash
 git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' | sort -k5n -k2M -k3n -k4n | grep <git username>
 ```
+
+Create patch from current changes:
+
+```bash
+git diff > <patch name>.patch
+```
+
+Note: To ensure new files are added to the patch run `git add .` and then `git diff --cached > <patch name>.patch`. Add the `--binary` flag when adding non-text files.
+
+Apply patch:
+
+```bash
+git apply <patch name>.patch
+```
+
+## Links
+
+* [Creating and Applying Git Patch Files](https://nithinbekal.com/posts/git-patch/)
