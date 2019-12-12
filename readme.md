@@ -7,6 +7,7 @@
 * [CSS Flexbox](css-flexbox.md)
 * [CSS Grid](css-grid.md)
 * [Git](git.md)
+* [git-svn](git-svn.md)
 * [hostess](hostess.md)
 * [HTML](html.md)
 * [ITCSS](itcss.md)
