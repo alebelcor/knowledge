@@ -18,4 +18,4 @@ Undo all local changes:
 svn revert --recursive .
 ```
 
-Note: For merging and conflict resolution use a GUI (e.g. SmartSVN), and everything else use git-svn
+Note: For merging and conflict resolution use a GUI (e.g. SmartSVN), and for everything else use git-svn
