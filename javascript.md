@@ -21,6 +21,12 @@ Get a random number in a range (inclusive):
 Math.floor(Math.random() * 10) + 1 // random number between 1 and 10
 ```
 
+Create a bookmarklet to clear browser storage (i.e. session storage and local storage):
+
+```txt
+javascript:(function(){sessionStorage.clear();localStorage.clear()}());
+```
+
 ## ES5
 
 * [Getter accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
