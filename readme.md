@@ -24,6 +24,7 @@
 * [Vim](vim.md)
 * [Visual Studio Code](visual-studio-code.md)
 * [Web accessibility](web-accessibility.md)
+* [Windows](windows.md)
 * [youtube-dl](youtube-dl.md)
 
 ## License
