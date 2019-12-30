@@ -76,9 +76,13 @@ To delete the current DNS servers enter: `dns server forward flush`
 
 List out the DNS servers again to confirm they were correctly removed.
 
-To set the primary DNS server enter (replace `0.0.0.0`): `dns server forward dnsset add set=0 dns=0.0.0.0 label=None metric=10 intf=Internet owner=PPP`
+To set the primary DNS server enter (replace `0.0.0.0`):
 
-To set the secondary one enter the same command, updating the address.
+```bash
+dns server forward dnsset add set=0 dns=0.0.0.0 label=None metric=10 intf=Internet owner=PPP
+```
+
+To set the secondary DNS server enter the previous command, updating the address.
 
 To save the changes enter: `saveall`
 
@@ -89,3 +93,43 @@ To verify the changes, [log into the modem's web interface](#how-to-log-into-the
 Under "Broadband Connection", click on "Internet".
 
 Under "TCP/IPv4 Settings", verify the primary and secondary DNS addresses were updated.
+
+Note: This may also be accomplished by editing the modem configuration and importing it.
+
+## How to restrict access to the Wi-Fi network to registered devices only
+
+[Log into the modem's web interface](#how-to-log-into-the-modems-web-interface).
+
+On the sidebar, click on "Home Network".
+
+On the sidebar, under "Home Network", click on "Interfaces".
+
+Click on "Wireless Interface".
+
+On the top right corner, click on "Configure".
+
+Under "Security", for "Allow new devices", select "Allow new devices (via registration)".
+
+Click on the "Apply" button.
+
+## How to manage device access to the Wi-Fi network
+
+[Log into the modem's web interface](#how-to-log-into-the-modems-web-interface).
+
+On the sidebar, click on "Home Network".
+
+On the sidebar, under "Home Network", click on "Interfaces".
+
+Click on "Wireless Interface".
+
+On the top right corner, click on "Configure".
+
+Click on "Advanced WLAN settings".
+
+Under "MAC Address filter" you can add new devices to the list.
+
+Under "List of wireless devices" you can edit the access of the devices in the list.
+
+Click on the "Apply" button to save the changes.
+
+Note: The device name field has a character limit of 12. To work around that you can edit the HTML (via browser tools) or enter a short name, export the modem configuration, edit it with the desired name, and import it.
