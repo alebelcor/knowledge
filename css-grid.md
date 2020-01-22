@@ -99,7 +99,7 @@ Use the [`minmax()`](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax) fu
 
 "Grid lines" are created when you define tracks. A 3 column, 2 row grid would produce 4 column lines and 3 row lines.
 
-Positioning individual grid items is done targeting lines, rather than tracks, by using the [`grid-column-start`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start), [`grid-column-end`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end), [[`grid-row-start`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start)](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start) and [`grid-row-end`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end) properties. There are also the shorthands [`grid-column`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) and [`grid-row`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row).
+Positioning individual grid items is done targeting lines, rather than tracks, by using the [`grid-column-start`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start), [`grid-column-end`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end), [`grid-row-start`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start) and [`grid-row-end`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end) properties. There are also the shorthands [`grid-column`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) and [`grid-row`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row).
 
 <details><summary>Example</summary>
 
