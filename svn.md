@@ -1,5 +1,11 @@
 # SVN
 
+Check out a working copy (i.e. clone):
+
+```bash
+svn checkout <url> [path]
+```
+
 Pull latest changes from remote:
 
 ```bash
