@@ -9,9 +9,9 @@ response.send('HTML <br> here');
 Return response as JSON:
 
 ```js
-response.json({my: 'JSON'});
+response.json({foo: 'bar'});
 // or
-response.send({my: 'JSON'});
+response.send({foo: 'bar'});
 ```
 
 Return error response with a JSON payload:
