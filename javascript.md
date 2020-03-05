@@ -244,6 +244,8 @@ javascript:(function(){sessionStorage.clear();localStorage.clear()}());
 
 ## Links
 
-* [ECMAScript compatibility table](https://kangax.github.io/compat-table/)
 * [Mozilla Developer Network Web Docs](https://developer.mozilla.org/)
+* [ECMAScript compatibility table](https://kangax.github.io/compat-table/)
+* [Finished proposals](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
+* [Active proposals](https://github.com/tc39/proposals#active-proposals)
 * [The TC39 Process](https://tc39.es/process-document/)
