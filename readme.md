@@ -3,16 +3,17 @@
 > My personal knowledge base
 
 * [BEM](bem.md)
-* [Docker](docker.md)
 * [CSS Flexbox](css-flexbox.md)
 * [CSS Grid](css-grid.md)
 * [cURL](curl.md)
+* [Docker](docker.md)
 * [Express](express.md)
 * [Git](git.md)
 * [git-svn](git-svn.md)
 * [hostess](hostess.md)
 * [HTML](html.md)
 * [ITCSS](itcss.md)
+* [JavaScript](javascript.md)
 * [macOS](macos.md)
 * [nodemon](nodemon.md)
 * [OOCSS](oocss.md)
@@ -25,7 +26,7 @@
 * [Unix/Unix-like](unix.md)
 * [Vim](vim.md)
 * [Visual Studio Code](visual-studio-code.md)
-* [Web accessibility](web-accessibility.md)
+* [Web Accessibility](web-accessibility.md)
 * [Windows](windows.md)
 * [youtube-dl](youtube-dl.md)
 
