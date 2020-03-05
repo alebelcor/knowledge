@@ -232,7 +232,18 @@ javascript:(function(){sessionStorage.clear();localStorage.clear()}());
 * [`Symbol.prototype.description`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/description)
 * [`Function.prototype.toString()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString)
 
+## ES2020
+
+* [`import()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Dynamic_Imports)
+* [`BigInt`](https://developer.mozilla.org/en-US/docs/Glossary/BigInt)
+* [`Promise.allSettled()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
+* [`globalThis`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis)
+* [Specifying `for...in` enumeration order](https://github.com/tc39/proposal-for-in-order)
+* [Optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+* [Nullish coalescing operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
+
 ## Links
 
 * [ECMAScript compatibility table](https://kangax.github.io/compat-table/)
 * [Mozilla Developer Network Web Docs](https://developer.mozilla.org/)
+* [The TC39 Process](https://tc39.es/process-document/)
