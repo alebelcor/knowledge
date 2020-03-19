@@ -18,7 +18,8 @@ bar; // [4, 8, 12]
 Get a random number in a range (inclusive):
 
 ```javascript
-Math.floor(Math.random() * 10) + 1 // random number between 1 and 10
+Math.floor(Math.random() * (max - min + 1)) + min
+Math.floor(Math.random() * (10 - 2 + 1)) + 2 // random number between 2 and 10
 ```
 
 Create a bookmarklet to clear browser storage (i.e. session storage and local storage):
