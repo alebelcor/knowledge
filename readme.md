@@ -12,6 +12,7 @@
 * [git-svn](git-svn.md)
 * [hostess](hostess.md)
 * [HTML](html.md)
+* [Interviewing in English for Spanish-speaking Developers](interviewing-in-english-for-spanish-speaking-developers.md)
 * [ITCSS](itcss.md)
 * [JavaScript](javascript.md)
 * [macOS](macos.md)
