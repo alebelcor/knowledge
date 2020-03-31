@@ -22,6 +22,7 @@
 * [REST](rest.md)
 * [Shell](shell.md)
 * [SQL](sql.md)
+* [SSH](ssh.md)
 * [SVN](svn.md)
 * [Technicolor TG582n](technicolor-tg582n.md)
 * [tmux](tmux.md)
