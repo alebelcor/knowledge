@@ -1,5 +1,13 @@
 # [Docker](https://www.docker.com/)
 
+List all containers:
+
+```bash
+docker ps --all
+```
+
+Note: Remove `--all` option to only list containers that are running.
+
 Stop all running containers:
 
 ```bash
@@ -11,6 +19,14 @@ Remove all containers:
 ```bash
 docker rm $(docker ps -aq)
 ```
+
+List images (no intermediates):
+
+```bash
+docker images
+```
+
+Note: Add `--all` option to include intermediate images.
 
 Remove all images:
 
