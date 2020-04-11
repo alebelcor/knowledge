@@ -32,3 +32,4 @@ du -sh ./node_modules/* | sort -nr | grep -P --color=never '\dM.*'
 * ["findutils" manual](https://www.gnu.org/software/findutils/manual/find.html)
 * [`grep` manual](https://www.gnu.org/software/grep/manual/)
 * [`lsof` manual](https://www.unix.com/man-page/mojave/8/lsof)
+* [`sort` manual](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html#sort-invocation)
