@@ -18,6 +18,7 @@
 * [macOS](macos.md)
 * [nodemon](nodemon.md)
 * [nodenv](nodenv.md)
+* [npm](npm.md)
 * [OOCSS](oocss.md)
 * [REST](rest.md)
 * [Shell](shell.md)
