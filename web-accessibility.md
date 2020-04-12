@@ -1,4 +1,4 @@
-# Web accessibility
+# Web Accessibility
 
 [Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/#what) is the practice that ensures websites, tools, and technologies are designed and developed so that people with disabilities can use them.
 
