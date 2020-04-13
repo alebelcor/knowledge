@@ -15,12 +15,7 @@ Add a dependency:
 ```bash
 yarn add <package name>
 yarn add <package name> --dev # for a dev dependency
-```
-
-Install a global dependency:
-
-```bash
-yarn global add <package name>
+yarn global add <package name> # for a global install
 ```
 
 Upgrade a dependency:
