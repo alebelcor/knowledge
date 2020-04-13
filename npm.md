@@ -44,6 +44,13 @@ Check if installed packages are currently outdated:
 npm outdated
 ```
 
+Execute `<command>` either from a local `node_modules/.bin` (or cache), installing any packages needed in order for `<command>` to run:
+
+```bash
+npx <package name> # when not installed in `node_modules`, i.e. a one-off
+npx <bin name> # when installed in `node_modules`, as exposed in `package.json`
+```
+
 ## Links
 
 * [`npm cache`](https://docs.npmjs.com/cli/cache.html)
@@ -53,3 +60,4 @@ npm outdated
 * [`npm install-test`](https://docs.npmjs.com/cli-commands/install-test.html)
 * [`npm outdated`](https://docs.npmjs.com/cli-commands/outdated.html)
 * [`npm repo`](https://docs.npmjs.com/cli/repo.html)
+* [`npx`](https://github.com/npm/npx)
