@@ -26,7 +26,7 @@ Grid introduces the `fr` unit to help create flexible grid tracks. It represents
 <details><summary>Example</summary>
 
 ```css
-/* 4 column grid, where all column track are the same size: 1/4 of the container size */
+/* 4 column grid, where all column tracks are the same size: 1/4 of the container size */
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -40,7 +40,7 @@ Use the [`repeat()`](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat) fu
 <details><summary>Example</summary>
 
 ```css
-/* 4 column grid, where all column track are the same size: 1/4 of the container size */
+/* 4 column grid, where all column tracks are the same size: 1/4 of the container size */
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -70,7 +70,7 @@ You can also define a set size for tracks for the implicit grid with the [`grid-
 <details><summary>Example</summary>
 
 ```css
-/* 4 column grid, where all column track are the same size: 1/4 of the container size */
+/* 4 column grid, where all column tracks are the same size: 1/4 of the container size */
 /* Rows in the implicit grid will be 100px tall */
 .wrapper {
   display: grid;
@@ -86,7 +86,7 @@ Use the [`minmax()`](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax) fu
 <details><summary>Example</summary>
 
 ```css
-/* 4 column grid, where all column track are the same size: 1/4 of the container size */
+/* 4 column grid, where all column tracks are the same size: 1/4 of the container size */
 /* Rows in the implicit grid will be at least 100px tall, while having a maximum of its content size */
 .wrapper {
   display: grid;
