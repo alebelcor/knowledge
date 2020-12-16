@@ -26,6 +26,7 @@
 * [SQL](sql.md)
 * [SSH](ssh.md)
 * [SVN](svn.md)
+* [Tailwind CSS](tailwind-css.md)
 * [Technicolor TG582n](technicolor-tg582n.md)
 * [tmux](tmux.md)
 * [Unix/Unix-like](unix.md)
