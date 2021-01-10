@@ -28,6 +28,7 @@
 * [SVN](svn.md)
 * [Tailwind CSS](tailwind-css.md)
 * [Technicolor TG582n](technicolor-tg582n.md)
+* [Termux](termux.md)
 * [tmux](tmux.md)
 * [Unix/Unix-like](unix.md)
 * [Vim](vim.md)
