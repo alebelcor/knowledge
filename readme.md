@@ -11,6 +11,7 @@
 * [Express](express.md)
 * [Git](git.md)
 * [git-svn](git-svn.md)
+* [Google Chrome](google-chrome.md)
 * [hostess](hostess.md)
 * [HTML](html.md)
 * [Interviewing in English for Spanish-speaking Developers](interviewing-in-english-for-spanish-speaking-developers.md)
