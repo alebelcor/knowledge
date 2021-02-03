@@ -1,6 +1,6 @@
 # [NextDNS](https://nextdns.io/)
 
-Fix Spotify crashes by allowing these domains:
+Fix Spotify crashes by adding these domains to your "Allowlist":
 
 ```txt
 *.audio-ak-spotify-com.akamaized.net
