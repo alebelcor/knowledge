@@ -18,6 +18,7 @@
 * [ITCSS](itcss.md)
 * [JavaScript](javascript.md)
 * [macOS](macos.md)
+* [NextDNS](nextdns.md)
 * [nodemon](nodemon.md)
 * [nodenv](nodenv.md)
 * [npm](npm.md)
