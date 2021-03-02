@@ -1,6 +1,6 @@
 # Web Performance
 
-## Fonts
+## Web Fonts
 
 ### Formats
 
@@ -15,7 +15,6 @@ If you don't need to support IE 11, [use WOFF 2.0](https://caniuse.com/woff2):
     font-style: normal;
     font-weight: 400;
     src: url('/path/to/file.woff2') format('woff2');
-    /* ... */
 }
 ```
 
@@ -29,29 +28,20 @@ If you need to support IE 11, add [WOFF 1](https://caniuse.com/woff) for it:
     font-weight: 400;
     src: url('/path/to/file.woff2') format('woff2'),
          url('/path/to/file.woff') format('woff');
-    /* ... */
 }
 ```
 
 ### font-display
 
-The [`font-display`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display) property lets you control what happens while the font is still loading or otherwise unavailable.
+The [`font-display`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display) descriptor lets you control what happens while the font is still loading or otherwise unavailable.
 
 Use the `swap` value [to ensure text remains visible during font loading and avoid a flash of invisible text (FOIT)](https://web.dev/font-display/).
 
-```css
-@font-face {
-    /* ... */
-    font-display: swap;
-    /* ... */
-}
-```
-
-Use the `optional` value when the font is not essential to the design. It will optionally load the font on fast enough connections.
+Use the `optional` value when the font is non-essential to the design. It will optionally load the font on fast enough connections.
 
 ### Preloading
 
-[Preload](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content) your fonts to increase the likelihood of it being loaded when your document is first rendered, thus avoiding a layout shift:
+[Preload](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content) fonts to increase the likelihood of them being loaded when your document is first rendered, thus avoiding a layout shift:
 
 ```html
 <head>
@@ -61,7 +51,7 @@ Use the `optional` value when the font is not essential to the design. It will o
 
 ### Character ranges
 
-Use the [`unicode-range`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range) CSS descriptor to define one, or more, specific ranges of characters to be used from a font defined by `@font-face`. If the page doesn't use any character in the range, the font is not downloaded; if it uses at least one, the whole font is downloaded.
+Use the [`unicode-range`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range) descriptor to define one, or more, specific ranges of characters to be used from a font defined by `@font-face`. If the page doesn't use any character in the range, the font is not downloaded; if it uses at least one, the whole font is downloaded.
 
 Google Fonts outputs different ranges using `unicode-range`: [Example](https://fonts.googleapis.com/css2?family=Roboto&display=swap)
 
@@ -70,8 +60,6 @@ Google Fonts outputs different ranges using `unicode-range`: [Example](https://f
 Subsetting allows you to include only the characters/glyphs you want instead of a full font file.
 
 For example, subsetting to basic latin characters for an English only site.
-
-[Tools](#Links)
 
 ### Misc
 
