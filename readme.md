@@ -37,6 +37,7 @@
 * [Vim](vim.md)
 * [Visual Studio Code](visual-studio-code.md)
 * [Web Accessibility](web-accessibility.md)
+* [Web Performance](web-performance.md)
 * [Windows](windows.md)
 * [Yarn](yarn.md)
 * [youtube-dl](youtube-dl.md)
