@@ -1,5 +1,13 @@
 # Web Performance
 
+## CSS
+
+No JS technique for loading CSS asynchronously:
+
+```html
+<link rel="stylesheet" href="/path/to/file.css" media="print" onload="this.media='all'">
+```
+
 ## Web Fonts
 
 ### Formats
@@ -77,5 +85,6 @@ Consider using [variable fonts](https://web.dev/variable-fonts/) ([browser suppo
 * [fontTools (CLI) – a library for manipulating fonts](https://github.com/fonttools/fonttools)
 * [Font Squirrel (Online) – Create Your Own @font-face Kits](http://www.fontsquirrel.com/tools/webfont-generator)
 * [glyphhanger (CLI) – Your web font utility belt](https://github.com/filamentgroup/glyphhanger)
+* [The Simplest Way to Load CSS Asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
 * [Transfonter (Online) – Modern and simple css @font-face generator](https://transfonter.org/)
 * [woff2 (CLI) – Produce `.woff2` files](https://github.com/google/woff2)
