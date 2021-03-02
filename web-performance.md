@@ -33,8 +33,6 @@ If you need to support IE 11, add [WOFF 1](https://caniuse.com/woff) for it:
 }
 ```
 
-Avoid the `local()` directive to reference locally installed fonts.
-
 ### font-display
 
 The [`font-display`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display) property lets you control what happens while the font is still loading or otherwise unavailable.
@@ -81,7 +79,7 @@ Use long [HTTP caching](https://web.dev/http-cache/#cache-control) for fonts, si
 
 Avoid using the Google Fonts service and [self-host the fonts instead](https://wicki.io/posts/2020-11-goodbye-google-fonts/).
 
-Avoid using the `local()` function to prevent showing potentially unexpected locally installed fonts.
+Avoid using the `local()` function, in `@font-face`, to prevent showing potentially unexpected locally installed fonts.
 
 Consider using [variable fonts](https://web.dev/variable-fonts/) ([browser support](https://caniuse.com/variable-fonts)).
 
