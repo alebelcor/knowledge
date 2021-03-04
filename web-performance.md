@@ -57,6 +57,8 @@ Use the `optional` value when the font is non-essential to the design. It will o
 </head>
 ```
 
+Note: `crossorigin` and `crossorigin=""` are the same as `crossorigin="anonymous"` (the default).
+
 ### Character ranges
 
 Use the [`unicode-range`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range) descriptor to define one, or more, specific ranges of characters to be used from a font defined by `@font-face`. If the page doesn't use any character in the range, the font is not downloaded; if it uses at least one, the whole font is downloaded.
