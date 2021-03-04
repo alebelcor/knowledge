@@ -12,7 +12,7 @@ No JS technique for loading CSS asynchronously:
 
 ### Formats
 
-Use <abbr title="Web Open Font Format">WOFF</abbr> 2.0 or 1. They have the widest browser support and yield the smallest file size than other formats.
+Use <abbr title="Web Open Font Format">WOFF</abbr>. It has the widest browser support and yields the smallest file size over other formats.
 
 If you don't need to support IE 11, [use WOFF 2.0](https://caniuse.com/woff2):
 
@@ -26,7 +26,7 @@ If you don't need to support IE 11, [use WOFF 2.0](https://caniuse.com/woff2):
 }
 ```
 
-If you need to support IE 11, add [WOFF 1](https://caniuse.com/woff) for it:
+If you need to support IE 11, add [WOFF 1](https://caniuse.com/woff) as fallback:
 
 ```css
 /* assumes a regular (i.e. 400) normal (i.e. non-italic) font */
@@ -70,6 +70,8 @@ Google Fonts outputs different ranges using `unicode-range`: [Example](https://f
 Subsetting allows you to include only the characters/glyphs you want instead of a full font file.
 
 For example, subsetting to basic latin characters for an English only site.
+
+See [Links](#Links) section for tools on this.
 
 ### Misc
 
