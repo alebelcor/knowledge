@@ -10,7 +10,7 @@ No JS technique for loading CSS asynchronously:
 
 ## Images
 
-Non-critical `<img>` should be lazy loaded natively by the browser with [`loading="lazy"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading). And set their decoding be non-blocking with `[decoding=”async”](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-decoding)`.
+Non-critical `<img>` should be lazy loaded natively by the browser with [`loading="lazy"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading). And set their decoding be non-blocking with [`decoding=”async”`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-decoding).
 
 Favor using the [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) tag for displaying responsive images in different next-gen formats depending on what the browser supports.
 
