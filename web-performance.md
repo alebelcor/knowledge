@@ -8,6 +8,83 @@ No JS technique for loading CSS asynchronously:
 <link rel="stylesheet" href="/path/to/file.css" media="print" onload="this.media='all'">
 ```
 
+## Images
+
+Non-critical `<img>` should be lazy loaded natively by the browser with [`loading="lazy"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading). And set their decoding be non-blocking with `[decoding=”async”](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-decoding)`.
+
+Favor using the [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) tag for displaying responsive images in different next-gen formats depending on what the browser supports.
+
+The order of the [`<source>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source) tags in `<picture>` should depend on the output size of the different image formats, as the browser will grab the first supported format from top to bottom, i.e. the smallest should be at the top.
+
+```html
+<picture>
+  <source
+    media="(min-width: 768px)"
+    type="image/avif"
+    srcset="my-larger-image.avif"
+  >
+  <source
+    media="(min-width: 768px)"
+    type="image/webp"
+    srcset="my-larger-image.webp"
+  >
+  <source
+    media="(min-width: 768px)"
+    srcset="my-larger-image.jpg"
+  >
+  <source
+    type="image/avif"
+    srcset="my-base-image.avif"
+  >
+  <source
+    type="image/webp"
+    srcset="my-base-image.webp"
+  >
+  <img
+    src="my-base-image.jpg"
+    alt="Alternative text for accessibility"
+    loading="lazy"
+    decoding="async"
+  >
+</picture>
+```
+
+### Photographic images
+
+| Format | Lossless | Alpha | Animation | Notes |
+|:------:|:--------:|:-----:|:---------:|:-----:|
+| [AVIF](https://en.wikipedia.org/wiki/AV1#AV1_Image_File_Format_(AVIF)) | **✓** | **✓** | **✓** | No progressive mode. [Browser support](https://caniuse.com/avif) |
+| [WebP](https://en.wikipedia.org/wiki/WebP) | **✓** | **✓** | **✓** | No progressive mode. [Browser support](https://caniuse.com/webp) |
+| [JPEG](https://en.wikipedia.org/wiki/JPEG) | **x** | **x** | **x** | Progressive mode. All browsers support it |
+
+### Non-photographic images
+
+Refers to synthetic/vector/sharp edges/text images.
+
+Depending on your usage, your best option may be embedded SVG when critical, and in `<img>` when non-critical. It is technically lossless. And since SVG is just text, it can be [optimized](https://jakearchibald.github.io/svgomg/).
+
+If you don't need to re-scale your (non-photographic) image consider compressing it as AVIF, WebP (since they both support transparency) and [PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics). These may yield a smaller file size than SVG.
+
+### Animated
+
+AVIF and WebP support animation.
+
+[APNG](https://en.wikipedia.org/wiki/APNG) is another option ([browser support](https://caniuse.com/apng)), but usually yields a bigger file size than [GIF](https://en.wikipedia.org/wiki/GIF).
+
+### Future
+
+In the not-so-distant future, the format to rule them all may be [JPEG XL](https://jpeg.org/jpegxl/) ([browser support](https://caniuse.com/jpegxl)).
+
+It supports alpha and other channels, has high bit depth, supports lossless, animation, progressive mode, it's responsive by design, high quality, and legacy-friendly.
+
+With all of that it can replace JPEG, PNG, GIF, and others.
+
+### Misc
+
+Avoid [JPEG 2000](https://caniuse.com/jpeg2000). It's only supported in Safari.
+
+Avoid [JPEG XR](https://caniuse.com/jpegxr). It's only supported in IE 11 and older.
+
 ## Web Fonts
 
 ### Formats
@@ -85,10 +162,14 @@ Consider using [variable fonts](https://web.dev/variable-fonts/) ([browser suppo
 
 ## Links
 
+* [Ezgif (Online) – Animated GIF editor and GIF maker | convert, edit](https://ezgif.com/)
 * [google-webfonts-helper (Online) – Get (Google Fonts) eot, ttf, svg, woff and woff2 files + CSS snippets](https://github.com/majodev/google-webfonts-helper)
+* [ImageMagick (CLI) – Create, edit, compose, or convert digital images](https://imagemagick.org/index.php)
 * [fontTools (CLI) – a library for manipulating fonts](https://github.com/fonttools/fonttools)
-* [Font Squirrel (Online) – Create Your Own @font-face Kits](http://www.fontsquirrel.com/tools/webfont-generator)
+* [Font Squirrel (Online) – Create Your Own @font-face Kits | convert, subset](http://www.fontsquirrel.com/tools/webfont-generator)
 * [glyphhanger (CLI) – Your web font utility belt](https://github.com/filamentgroup/glyphhanger)
-* [The Simplest Way to Load CSS Asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
-* [Transfonter (Online) – Modern and simple css @font-face generator](https://transfonter.org/)
+* [Photopea (Online) – Online Photo Editor | convert, resize, crop, etc.](https://www.photopea.com/)
+* [Squoosh (Online) – Compress and compare images with different codecs, right in your browser | compress, convert, resize](https://squoosh.app/)
+* [The Simplest Way to Load CSS Asynchronously – Article](https://www.filamentgroup.com/lab/load-css-simpler/)
+* [Transfonter (Online) – Modern and simple css @font-face generator | convert, subset](https://transfonter.org/)
 * [woff2 (CLI) – Produce `.woff2` files](https://github.com/google/woff2)
