@@ -10,7 +10,9 @@ No JS technique for loading CSS asynchronously:
 
 ## Images
 
-Non-critical `<img>` should be lazy loaded natively by the browser with [`loading="lazy"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading). And set their decoding be non-blocking with [`decoding=”async”`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-decoding).
+Images should include dimension attributes (i.e. `width` and `height`). The dimensions can, of course, be overwritten via CSS but this helps prevent [layout shifts](https://web.dev/cls/) early on.
+
+Non-critical `<img>` should be lazy loaded natively by the browser with [`loading="lazy"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading) ([browser support](https://caniuse.com/loading-lazy-attr)). And set their decoding be non-blocking with [`decoding=”async”`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-decoding) ([browser support](https://caniuse.com/mdn-html_elements_img_decoding)).
 
 Favor using the [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) tag for displaying responsive images in different next-gen formats depending on what the browser supports.
 
@@ -61,7 +63,7 @@ The order of the [`<source>`](https://developer.mozilla.org/en-US/docs/Web/HTML/
 
 Refers to synthetic/vector/sharp edges/text images.
 
-Depending on your usage, your best option may be embedded SVG when critical, and in `<img>` when non-critical. It is technically lossless. And since SVG is just text, it can be [optimized](https://jakearchibald.github.io/svgomg/).
+Depending on your usage, your best option may be embedded SVG when critical, and in `<img>` when non-critical. It is technically lossless. And since SVG is just text, it can be [optimized](https://jakearchibald.github.io/svgomg/), and compressed (e.g. with [brotli](https://en.wikipedia.org/wiki/Brotli), or [gzip](https://en.wikipedia.org/wiki/Gzip) on a CDN).
 
 If you don't need to re-scale your (non-photographic) image consider compressing it as AVIF, WebP (since they both support transparency) and [PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics). These may yield a smaller file size than SVG.
 
@@ -80,6 +82,12 @@ It supports alpha and other channels, has high bit depth, supports lossless, ani
 With all of that it can replace JPEG, PNG, GIF, and others.
 
 ### Misc
+
+If you want to use a next-gen image format as a background in CSS you can use:
+
+* [avif-in-css (PostCSS plugin)](https://github.com/nucliweb/avif-in-css): Te detect AVIF support
+* [webp-in-css (PostCSS plugin)](https://github.com/ai/webp-in-css): Te detect WebP support
+* [Modernizr](https://modernizr.com/): To detect WebP support
 
 Avoid [JPEG 2000](https://caniuse.com/jpeg2000). It's only supported in Safari.
 
@@ -163,13 +171,16 @@ Consider using [variable fonts](https://web.dev/variable-fonts/) ([browser suppo
 ## Links
 
 * [Ezgif (Online) – Animated GIF editor and GIF maker | convert, edit](https://ezgif.com/)
-* [google-webfonts-helper (Online) – Get (Google Fonts) eot, ttf, svg, woff and woff2 files + CSS snippets](https://github.com/majodev/google-webfonts-helper)
-* [ImageMagick (CLI) – Create, edit, compose, or convert digital images](https://imagemagick.org/index.php)
 * [fontTools (CLI) – a library for manipulating fonts](https://github.com/fonttools/fonttools)
 * [Font Squirrel (Online) – Create Your Own @font-face Kits | convert, subset](http://www.fontsquirrel.com/tools/webfont-generator)
 * [glyphhanger (CLI) – Your web font utility belt](https://github.com/filamentgroup/glyphhanger)
+* [google-webfonts-helper (Online) – Get (Google Fonts) eot, ttf, svg, woff and woff2 files + CSS snippets](https://github.com/majodev/google-webfonts-helper)
+* [ImageMagick (CLI) – Create, edit, compose, or convert digital images](https://imagemagick.org/index.php)
+* [lazysizes – lazyloader for images, iframes, scripts/widgets and much more](https://github.com/aFarkas/lazysizes)
 * [Photopea (Online) – Online Photo Editor | convert, resize, crop, etc.](https://www.photopea.com/)
 * [Squoosh (Online) – Compress and compare images with different codecs, right in your browser | compress, convert, resize](https://squoosh.app/)
+* [SVGO – Node.js tool for optimizing SVG files](https://github.com/svg/svgo)
+* [SVGOMG (Online) – SVGO's Missing GUI](https://jakearchibald.github.io/svgomg/)
 * [The Simplest Way to Load CSS Asynchronously – Article](https://www.filamentgroup.com/lab/load-css-simpler/)
 * [Transfonter (Online) – Modern and simple css @font-face generator | convert, subset](https://transfonter.org/)
 * [woff2 (CLI) – Produce `.woff2` files](https://github.com/google/woff2)
