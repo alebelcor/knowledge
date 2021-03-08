@@ -10,9 +10,11 @@ No JS technique for loading CSS asynchronously:
 
 ## Images
 
-Images should include dimension attributes (i.e. `width` and `height`). The dimensions can, of course, be overwritten via CSS but this helps prevent [layout shifts](https://web.dev/cls/) early on.
+Consider including dimension attributes (i.e. `width` and `height`) to `<img>`. The dimensions can, of course, be overwritten via CSS but this helps prevent [layout shifts](https://web.dev/cls/) early on.
 
-Non-critical `<img>` should be lazy loaded natively by the browser with [`loading="lazy"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading) ([browser support](https://caniuse.com/loading-lazy-attr)). And set their decoding be non-blocking with [`decoding=”async”`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-decoding) ([browser support](https://caniuse.com/mdn-html_elements_img_decoding)).
+Consider setting the image decoding be non-blocking with [`decoding=”async”`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-decoding) ([browser support](https://caniuse.com/mdn-html_elements_img_decoding)) to help speed up the initial rendering.
+
+Non-critical `<img>` should be lazy loaded natively by the browser with [`loading="lazy"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading) ([browser support](https://caniuse.com/loading-lazy-attr)) to help speed up the initial rendering.
 
 Favor using the [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) tag for displaying responsive images in different next-gen formats depending on what the browser supports.
 
