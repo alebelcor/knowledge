@@ -10,7 +10,16 @@ No JS technique for loading CSS asynchronously:
 
 ## Images
 
-Consider including dimension attributes (i.e. `width` and `height`) to `<img>`. The dimensions can, of course, be overwritten via CSS but this helps prevent [layout shifts](https://web.dev/cls/) early on.
+Including dimension attributes (i.e. `width` and `height`) to `<img>` can help prevent [layout shifts](https://web.dev/cls/). Dimensions can of course, be overwritten with CSS.
+
+Use the available horizontal space up until its maximum size while retaining the aspect ratio:
+
+```css
+img {
+  max-width: 100%;
+  height: auto;
+}
+```
 
 Consider setting the image decoding be non-blocking with [`decoding=”async”`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-decoding) ([browser support](https://caniuse.com/mdn-html_elements_img_decoding)) to help speed up the initial rendering.
 
