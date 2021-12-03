@@ -1,5 +1,11 @@
 # [Vim](https://www.vim.org)
 
+Delete current line:
+
+```txt
+dd
+```
+
 Delete all lines in file:
 
 ```txt
