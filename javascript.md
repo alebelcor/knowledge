@@ -28,13 +28,22 @@ Create a bookmarklet to clear browser storage (i.e. session storage and local st
 javascript:(function(){sessionStorage.clear();localStorage.clear()}());
 ```
 
-Instead of using `removeEventListener`, you can use `AbortController` to remove an event listener:
+Besides `removeEventListener()`, you may use `AbortController#abort()` to remove an event listener:
 
 ```javascript
 const { abort, signal } = new AbortController();
 element.addEventListener('click', handleClick, { signal });
 
 abort(); // removes event listener
+```
+
+Timeout fetch requests with `AbortSignal.timeout()`:
+
+```javascript
+fetch(url, {
+  // ...
+  signal: AbortSignal.timeout(5000), // abort after 5 seconds
+});
 ```
 
 ## ES5
