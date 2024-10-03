@@ -46,6 +46,24 @@ fetch(url, {
 });
 ```
 
+Safely parse a number:
+
+```typescript
+function parseNumber(input: string) {
+  if (input.trim() === '') {
+    return;
+  }
+
+  const value = Number(input);
+
+  if (!Number.isFinite(value)) {
+    return;
+  }
+
+  return value;
+}
+```
+
 ## ES5
 
 * [Getter accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
