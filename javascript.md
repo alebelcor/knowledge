@@ -64,6 +64,25 @@ function parseNumber(input: string) {
 }
 ```
 
+Do something when the DOM is ready:
+
+```javascript
+window.addEventListener('DOMContentLoaded', (event) => {
+  // The HTML document has been completely parsed, and all deferred scripts have downloaded and executed
+});
+```
+
+Lazy load a script:
+
+```javascript
+const script = document.createElement('script');
+script.async = true; // or defer
+script.src = 'path/to/file.js';
+script.onload = () => {} // callback if needed
+
+document.querySelector('head').appendChild(script);
+```
+
 ## ES5
 
 * [Getter accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
