@@ -83,6 +83,18 @@ script.onload = () => {} // callback if needed
 document.querySelector('head').appendChild(script);
 ```
 
+Promise wrapper to avoid try/catch:
+
+```javascript
+function promiseWrapper(promise) {
+  return promise
+    .then((data) => [, data])
+    .catch((error) => [error]);
+}
+
+const [error, data] = await promiseWrapper(doAsyncStuff());
+```
+
 ## ES5
 
 * [Getter accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
