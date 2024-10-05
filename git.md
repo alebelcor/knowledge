@@ -86,6 +86,12 @@ Apply patch:
 git apply <patch name>.patch
 ```
 
+Find the commit that deleted a file:
+
+```bash
+git log --full-history -- path/to/file.js
+```
+
 ## Links
 
 * [Creating and Applying Git Patch Files](https://nithinbekal.com/posts/git-patch/)
