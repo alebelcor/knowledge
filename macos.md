@@ -50,3 +50,5 @@ mdls -name kMDItemContentType -raw <file path>
 
 - [A launchd Tutorial](https://www.launchd.info)
 - [defaults (Software)](https://en.wikipedia.org/wiki/Defaults_(software))
+- [Mac external displays for designers and developers](https://bjango.com/articles/macexternaldisplays/)
+- [Mac external displays for designers and developers, part 2](https://bjango.com/articles/macexternaldisplays2/)
