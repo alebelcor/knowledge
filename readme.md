@@ -26,6 +26,7 @@
 * [React Native](react-native.md)
 * [REST](rest.md)
 * [Shell](shell.md)
+* [Slack](slack.md)
 * [SQL](sql.md)
 * [SSH](ssh.md)
 * [SVN](svn.md)
