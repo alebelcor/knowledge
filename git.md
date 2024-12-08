@@ -92,6 +92,12 @@ Find the commit that deleted a file:
 git log --full-history -- path/to/file.js
 ```
 
+Search for commits that added/deleted a string:
+
+```bash
+git log -S 'string here'
+```
+
 ## Links
 
 * [Creating and Applying Git Patch Files](https://nithinbekal.com/posts/git-patch/)
