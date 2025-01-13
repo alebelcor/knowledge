@@ -42,6 +42,7 @@
 * [Windows](windows.md)
 * [Yarn](yarn.md)
 * [youtube-dl](youtube-dl.md)
+* [yt-dlp](yt-dlp.md)
 
 ## License
 
