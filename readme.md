@@ -2,6 +2,7 @@
 
 > My personal knowledge base
 
+* [Agent Skills](agent-skills.md)
 * [BEM](bem.md)
 * [CSS Flexbox](css-flexbox.md)
 * [CSS Grid](css-grid.md)
