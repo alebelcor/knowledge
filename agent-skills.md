@@ -17,6 +17,9 @@ pnpx skills --help # see all commands and options
 
 ```bash
 skills=(
+	# https://www.skills.sh/addyosmani/agent-skills
+	addyosmani/agent-skills
+
 	# https://www.skills.sh/addyosmani/web-quality-skills
 	addyosmani/web-quality-skills
 
@@ -29,6 +32,9 @@ skills=(
 	# https://www.skills.sh/anthropics/skills/frontend-design
 	anthropics/skills@frontend-design
 
+	# https://www.skills.sh/anthropics/skills/skill-creator
+	anthropics/skills@skill-creator
+
 	# https://www.skills.sh/cloudflare/skills/cloudflare
 	cloudflare/skills@cloudflare
 
@@ -37,6 +43,9 @@ skills=(
 
 	# https://www.skills.sh/cloudflare/skills/wrangler
 	cloudflare/skills@wrangler
+
+	# https://www.skills.sh/cursor/plugins/unslop
+	cursor/plugins@unslop
 
 	# https://www.skills.sh/cursor/plugins/typescript-best-practices
 	cursor/plugins@typescript-best-practices
@@ -49,6 +58,9 @@ skills=(
 
 	# https://www.skills.sh/getsentry/skills/commit
 	getsentry/skills@commit
+
+	# https://www.skills.sh/mattpocock/skills/writing-for-agents
+	mattpocock/skills@writing-for-agents
 
 	# https://www.skills.sh/mcollina/skills/typescript-magician
 	mcollina/skills@typescript-magician
@@ -89,6 +101,49 @@ skills=(
 	honojs/skills@hono
 
 	# -----------------------------------------------------------------------
+	# Marketing
+	# -----------------------------------------------------------------------
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/ad-creative
+	coreyhaines31/marketingskills@ad-creative
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/ads
+	coreyhaines31/marketingskills@ads
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/ai-seo
+	coreyhaines31/marketingskills@ai-seo
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/content-strategy
+	coreyhaines31/marketingskills@content-strategy
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/copy-editing
+	coreyhaines31/marketingskills@copy-editing
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/copywriting
+	coreyhaines31/marketingskills@copywriting
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/image
+	coreyhaines31/marketingskills@image
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/product-marketing
+	coreyhaines31/marketingskills@product-marketing
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/programmatic-seo
+	coreyhaines31/marketingskills@programmatic-seo
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/schema
+	coreyhaines31/marketingskills@schema
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/seo-audit
+	coreyhaines31/marketingskills@seo-audit
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/site-architecture
+	coreyhaines31/marketingskills@site-architecture
+
+	# https://www.skills.sh/coreyhaines31/marketingskills/social
+	coreyhaines31/marketingskills@social
+
+	# -----------------------------------------------------------------------
 	# Node.js
 	# -----------------------------------------------------------------------
 
@@ -121,9 +176,16 @@ skills=(
 
 	# https://www.skills.sh/shadcn-ui/ui
 	shadcn-ui/ui
+
+	# -----------------------------------------------------------------------
+	# Tailwind CSS
+	# -----------------------------------------------------------------------
+
+	# https://www.skills.sh/wshobson/agents/tailwind-design-system
+	wshobson/agents@tailwind-design-system
 )
 
-for item in "${skills[@]}"; do pnpx skills add "$item" --global; done
+for item in "${skills[@]}"; do pnpx skills add "$item"; done
 ```
 
 ## Links
